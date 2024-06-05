@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul> li{
+            display: inline;
+            margin-right: 10px;
+            background-color: red;
+            color: white;
+            padding: 5px;
+            list-style: none;
+        }
+        div p{
+            display: inline;
+            margin-right: 10px;
+            background-color: orange;
+            color: white;
+            padding: 5px;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .red{
+            background-color: aqua;
+        }
+        .green{
+            background-color: blueviolet;
+        }
+        .blue{
+            background-color: aquamarine;
+        }
+        .boxs1{
+            display:flex;
+            flex-wrap: wrap;
+        }
+        .boxs2{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+        }
+        .boxs3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .boxs3 > .box {
+            height: 50px !important;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Anasayfa</li>
+        <li>Hakkimizda</li>
+        <li>İletişim</li>
+        <li>Galeri</li>
+    </ul>
+    <div>
+        <p>Ders 3</p>
+        <p>Html</p>
+        <p>Css</p>
+    </div>
+    <br/><br/>
+    <br/><br/>
+    <div class="boxs1">
+        <div class="box green"></div>
+        <div class="box red"></div>
+        <div class="box blue"></div>
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+        </div>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <div class="boxs2">
+    <div class="box green"></div>
+    <div class="box red"></div>
+    <div class="box blue"></div>
+    <div class="box red"></div>
+    <div class="box green"></div>
+    <div class="box blue"></div>
+    </div>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/><!--"https://picsum.photos/200/300"-->
+    <div class="boxs3">
+        <div class="box green"></div>
+        <img src="https://picsum.photos/200/300" 
+        alt="Ayakkabi"
+        width="100"
+        height="100">
+        <div class="box red"></div>
+        <div class="box blue"></div>
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul> li{
+            display: inline;
+            margin-right: 10px;
+            background-color: red;
+            color: white;
+            padding: 5px;
+            list-style: none;
+        }
+        div p{
+            display: inline;
+            margin-right: 10px;
+            background-color: orange;
+            color: white;
+            padding: 5px;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .red{
+            background-color: aqua;
+        }
+        .green{
+            background-color: blueviolet;
+        }
+        .blue{
+            background-color: aquamarine;
+        }
+        .boxs1{
+            display:flex;
+            flex-wrap: wrap;
+        }
+        .boxs2{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+        }
+        .boxs3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .boxs3 > .box {
+            height: 50px !important;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Anasayfa</li>
+        <li>Hakkimizda</li>
+        <li>İletişim</li>
+        <li>Galeri</li>
+    </ul>
+    <div>
+        <p>Ders 3</p>
+        <p>Html</p>
+        <p>Css</p>
+    </div>
+    <br/><br/>
+    <br/><br/>
+    <div class="boxs1">
+        <div class="box green"></div>
+        <div class="box red"></div>
+        <div class="box blue"></div>
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+        </div>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <div class="boxs2">
+    <div class="box green"></div>
+    <div class="box red"></div>
+    <div class="box blue"></div>
+    <div class="box red"></div>
+    <div class="box green"></div>
+    <div class="box blue"></div>
+    </div>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/><!--"https://picsum.photos/200/300"-->
+    <div class="boxs3">
+        <div class="box green"></div>
+        <img src="https://picsum.photos/200/300" 
+        alt="Ayakkabi"
+        width="100"
+        height="100">
+        <div class="box red"></div>
+        <div class="box blue"></div>
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .font1{
+            font-family: Arial, sans-serif;
+            font-size: 30px;
+        }
+        .font2{
+            font-family: "times new roman", serif;
+            font-size: 12px;
+            font-style: italic;
+            color: aqua;
+        }
+        .font3{
+            font-family: "Courier New", monospace;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        .font4{
+            font-family: "comic sans MS",cursive;
+            font-size: 40px;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <p class="font1">
+    lorem ipsum dolor sit amet consectetur adipisicing elit, Quisquam
+    voluptates, quidem, quod, quas doloremque quae quisbusdam voluptatu 
+   </p>
+    <p class="font2">
+    lorem ipsum dolor sit amet consectetur adipisicing elit, Quisquam
+     voluptates, quidem, quod, quas doloremque quae quisbusdam voluptatu 
+    </p>
+    <p class="font3">
+    lorem ipsum dolor sit amet consectetur adipisicing elit, Quisquam
+     voluptates, quidem, quod, quas doloremque quae quisbusdam voluptatu 
+    </p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            height: 100px;
+            width: 100px;
+            background-color: rebeccapurple;
+            margin: 15px;
+            padding: 25px;
+        }
+        .box2{
+            height: 100px;
+            width: 100px;
+            background-color: rebeccapurple;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">loremipsum</div>
+    <div class="box2">loremipsum</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            margin-top: 150px;
+            margin-left: 100px;
+            height: 300px;
+            width: 300px;
+            background-color: aqua;
+            color: black;
+            transform: translate(50px, 100px);
+            transform: rotate(45deg);
+            transform: scalex(1.5);
+            transform: scaley(1.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">lorem ipsum box1</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            margin: 14px;
+            transform: scalex(2);          
+        }
+        .box1{
+            width: 100px;
+            height: 180px;
+            background-color: aqua;
+            margin: 12px;
+            transform: scaley(2);          
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            margin: 100px;
+            transform: scalex(2);          
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: azure;
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 100px;
+            box-shadow: 10px 10px 5px 0px rgba(10, 10, 10, 10);
+            border-radius: 10px;
+            transform: rotateX(24deg) perspective(10em);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            transform: rotateX(18deg) perspective(100px);
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 100px;
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75),10px
+            10px 5px 0px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.5);
+            transition: background-color 1s, transform 1s;
+            transition: width 1s, height 1s;
+        }
+        .box:hover{
+            background-color: rgba(255, 255, 255, 1);
+            transform: rotateX(18deg)
+            perspective(100px) rotateY(10deg);
+            width: 300px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            position: relative;
+            height: 150px;
+            width: 200px;
+            margin: 100px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        #div2{
+            padding-left: 63px;
+            position: absolute;
+            border: 1px solid blue;
+            transform: rotateY(60deg);
+            background-color: aqua;
+            transform-style: preserve-3d;
+        }
+        #div3{
+            padding: 50px;
+            position: absolute;
+            border: 1px solid rgba(0, 255, 115, 0.877);
+            transform: rotateY(-60deg);
+            background-color: rgb(56, 14, 95);
+            transform-style: preserve-3d;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+    <div id="div2">
+    merhaba
+    <div id="div3">sınıf</div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border-style: solid;
+            border-width: 1px;
+            display: block;
+            width: 100px;
+            height: 100px;
+            transition: width 2s, height 2s, bacground-color 2s;
+        }
+        .box:hover{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            transform: rotateY(180deg)
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            align-items: center;  
+        }
+        .translate,
+        .scale,
+        .rotate,
+        .matrix,
+        .skew,
+        .perspective{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            display: flex;
+            margin:10px;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 10px;
+            border: 2px solid red;
+            transition: 1s ease;
+        }
+        .translate:hover{
+            transform: translate(100px, 100px);
+        }
+        .scale:hover{
+            transform: scale(1.50);
+        }
+        .rotate:active{
+            transform: rotate(2turn);
+        }
+        .rotate:active{
+            transform: rotate(45deg);
+        }
+        .skew:hover{
+            transform:skew(15deg);
+        }
+        .skew:hover p {
+            transform: skew(-15deg);
+        }
+        .matrix:hover{
+            transform: matrix(1, 0.5, 0.5, 1, 30, 10);
+        }
+        .perspective:hover{
+            transform-origin: top;
+        }
+        .perspective:hover{
+            transform: perspective(50px) rotate(360deg);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="translate">
+            <p>translate</p>
+    </div>
+    <div class="scale">
+        <p>Scale</p>
+        </div>
+        <div class="rotate">
+            <p>Rotate</p>
+            </div>
+            <div class="matrix">
+                <p>matrix</p>
+                </div>
+                <div class="skew">
+                    <p>Skew</p>
+                    </div>
+                    <div class="perspective">
+                        <p>perspective</p>
+                        </div>
+</body>
+</html>
